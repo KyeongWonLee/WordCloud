@@ -1,12 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import AppShell from './components/AppShell.js';
 
 function App() {
   return (
-    <div className="App">
-      <h3>Hello World!!</h3>
-    </div>
+    <AppShell/>
   );
 }
 
